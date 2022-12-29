@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Vazirmatn", sans-serif;
+  transition: 0.3s;
+  text-decoration: none;
+}
+:root {
+  --_Color1: #404258;
+  --_Color2: #474e68;
+  --_Color3: #50577a;
+  --_Color4: #6b728e;
+}
+html {
+  direction: ltr;
+  scroll-behavior: smooth;
+  scroll-padding-top: 55px;
+}
+.Container,
+.Container-Full,
+.Container-lg,
+.Container-md,
+.Container-sm,
+.Container-xl,
+.Container-xxl {
+  --bs-gutter-x: 24px;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+/* NavBar */
+header.NavBar {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--_Color1);
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+header.PlaceTop {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header.NavBar .logo {
+  color: #fff;
+}
+header.NavBar .logo a {
+  color: #fff;
+}
+header.NavBar .links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header.NavBar .links ul li {
+  margin: 0 10px;
+}
+header.NavBar .links ul li a {
+  color: #fff;
+}
+/* End NavBar */
+
+/* Medias */
+@media (min-width: 576px) {
+  .Container,
+  .Container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .Container,
+  .Container-md,
+  .Container-sm {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .Container,
+  .Container-lg,
+  .Container-md,
+  .Container-sm {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .Container,
+  .Container-lg,
+  .Container-md,
+  .Container-sm,
+  .Container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .Container,
+  .Container-lg,
+  .Container-md,
+  .Container-sm,
+  .Container-xl,
+  .Container-xxl {
+    max-width: 1320px;
+  }
+}
