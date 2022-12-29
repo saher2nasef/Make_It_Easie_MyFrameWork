@@ -139,6 +139,7 @@ body.load #preloader {
   color: #fff;
   opacity: 1;
   transition: 0.5s;
+  transform: scale(1);
 }
 #preloader {
   opacity: 0;
