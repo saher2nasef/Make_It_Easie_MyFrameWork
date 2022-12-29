@@ -1,0 +1,214 @@
+html {
+  scroll-padding-top: 50px;
+}
+body {
+  overflow-x: hidden;
+  background-color: #000;
+}
+.body {
+  overflow-x: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Start NavBar */
+header .logo,
+header .links a {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+/* End NavBar */
+/* Start Home */
+#Home {
+  height: calc(100vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Home > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#Home > div h1 {
+  font-size: 100px;
+  color: #fff;
+}
+#Home > div p {
+  font-size: 20px;
+  width: 60%;
+  text-align: center;
+  color: #fff;
+}
+/* end Home */
+/* Start Docs  */
+#Docs {
+  min-height: calc(100vh - 45px);
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+#Docs #LeftSide {
+  width: 300px;
+  height: 90vh;
+  overflow-y: auto;
+  padding-top: 10px;
+  position: sticky !important;
+  top: 0;
+}
+#Docs #LeftSide ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#Docs #LeftSide ul li {
+  padding: 10px 20px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  cursor: pointer;
+}
+#Docs #Content {
+  width: calc(100% - 300px);
+  height: 100%;
+  padding: 10px;
+}
+#Docs #Content h1 {
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  color: #fff;
+}
+#Docs #Content .Property {
+  margin-top: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
+  padding: 10px;
+}
+#Docs #Content .Property h2 {
+  color: #fff;
+}
+#Docs #Content .Property p {
+  color: #fff;
+  white-space: break-spaces;
+}
+/* End Docs */
+
+/* Start Download  */
+#Download {
+  padding: 20px;
+}
+#Download .url {
+  background: #00000085;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 10px auto 0;
+}
+
+/* End Download */
+
+/* Start Contact  */
+#Contact {
+  height: calc(100vh - 45px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End Contact */
+/* Start Load */
+
+body.load #preloader {
+  overflow: hidden;
+  background-image: linear-gradient(145deg, #00b4c6 0%, #0088e8 100%);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 9999;
+  color: #fff;
+  opacity: 1;
+  transition: 0.5s;
+}
+#preloader {
+  opacity: 0;
+  z-index: -10;
+  transform: scale(0);
+}
+#preloader .jumper {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+#preloader .jumper > div {
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: jumper 1s 0s linear infinite;
+  animation: jumper 1s 0s linear infinite;
+}
+
+#preloader .jumper > div:nth-child(2) {
+  -webkit-animation-delay: 0.33333s;
+  animation-delay: 0.33333s;
+}
+
+#preloader .jumper > div:nth-child(3) {
+  -webkit-animation-delay: 0.66666s;
+  animation-delay: 0.66666s;
+}
+
+@-webkit-keyframes jumper {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes jumper {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* end Load */

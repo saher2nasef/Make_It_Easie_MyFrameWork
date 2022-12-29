@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Make It Easier</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/1084e2b76b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/Frame.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="Load">
+    <div id="preloader">
+      <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <header data-frame="div" class="NavBar PlaceTop Zindex-2">
+      <div class="logo"><a href="#">make it easier</a></div>
+      <div class="links">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Docs">Docs</a></li>
+          <li><a href="#Download">Download</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="body">
+      <section
+        id="Home"
+        data-frame="section"
+        data-aos="zoom-out-down"
+        data-aos-duration="1000"
+      >
+        <div>
+          <h1>Home</h1>
+          <div class="info">
+            <p data-frame="p" class="MarginFull-auto">
+              Hello, this framework is made to make it easier to write css
+              through the tag class, and I promise you will be amazed
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        id="Docs"
+        data-aos="fade-up"
+        data-aos-offset="500"
+        data-aos-duration="500"
+      >
+        <aside
+          id="LeftSide"
+          data-aos="fade-right"
+          data-aos-offset="500"
+          data-aos-duration="1000"
+        >
+          <ul data-frame="ul">
+            <li>One</li>
+            <li>Two</li>
+          </ul>
+        </aside>
+        <section
+          id="Content"
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="1500"
+          data-frame="section"
+        ></section>
+      </section>
+      <section id="Download" class="Display-flex FlexDirection-column">
+        <a
+          href="./Make_It_Easier.rar"
+          id="BtnDownload"
+          data-frame="btn"
+          class="
+            BorderFull-0
+            PaddingFull-10-20
+            Display-block
+            MarginFull-10-auto
+            BgC-#ADA2FF
+            Color-#fff
+            BorderRadius-5
+            Cursor-pointer
+            Width-fit-content
+          "
+          role="button"
+          download
+        >
+          <i data-frame="i" class="fa fa-download MarginRight-10"></i> Download
+          Frame Work
+          <!--       download="Make_It_Easier" -->
+        </a>
+        <div class="url" id="Css"></div>
+        <div class="url" id="Js" data-frame="div"></div>
+      </section>
+    </section>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/Frame.js" type="module" async defer></script>
+    <script src="js/index.js" type="module" async defer></script>
+  </body>
+</html>
