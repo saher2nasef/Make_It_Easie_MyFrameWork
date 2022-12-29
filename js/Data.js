@@ -428,17 +428,17 @@ let Data = [
       },
     ],
   },
-  {
-    Property: `Background2`,
-    Content: [
-      {
-        Title: `PropertyName`,
-        Content: `If you want to write this property, you must follow the following steps 
-1- The first step is to write this in the element data-frame="Your element Name
-2- next step Add class Contain ""
-"<\'div data-frame="div" class=""><\'/div>`,
-      },
-    ],
-  },
 ];
 export default Data;
+// {
+//   Property: `Background2`,
+//   Content: [
+//     {
+//       Title: `PropertyName`,
+//       Content: `If you want to write this property, you must follow the following steps
+// 1- The first step is to write this in the element data-frame="Your element Name
+// 2- next step Add class Contain ""
+// "<\'div data-frame="div" class=""><\'/div>`,
+//     },
+//   ],
+// },
