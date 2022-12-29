@@ -1,2 +1,0 @@
-# Make_It_Easie_MyFrameWork
-Make_It_Easie_MyFrameWork
