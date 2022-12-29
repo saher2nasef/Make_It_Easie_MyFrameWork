@@ -1,54 +1,56 @@
-`MarginFull-`
-`MarginLeft-`
-`MarginRight-`
-`MarginTop-`
-`MarginBottom-`
-`PaddingFull-`
-`PaddingLeft-`
-`PaddingRight-`
-`PaddingTop-`
-`PaddingBottom-`
-`Zindex-`
-`Position-`
-`PTop-`
-`PLeft-`
-`PRight-`
-`PBottom-`
-`Color-`
-`BgC-`
-`BgI-`
-`BgS-`
-`BorderFull-`
-`BorderBottom-`
-`BorderRight-`
-`BorderLeft-`
-`BorderTop-`
-`BorderStyle-`
-`BorderWidth-`
-`BorderC-`
-`BorderRadius-`
-`Width-`
-`Height-`
-`Display-`
-`FontFamily-`
-`FontSize-`
-`FontStyle-`
-`FontWeight-`
-`TextAlign-`
-`TextDecoration-`
-`TextIndent-`
-`TextOverflow-`
-`TextTransform-`
-`Transform-`
-`Transition-`
-`FlexDirection-`
-`FlexWrap-`
-`FlexFlow-`
-`JustifyContent-`
-`AlignItems-`
-`AlignContent-`
-`AlignSelf-`
-`Order-`
-`FlexGrow-`
-`FlexShrink-`
-`FlexBasis-`
+#Make_It_Easie_MyFrameWork
+_________________________________
+`MarginFull-` \n
+`MarginLeft-` \n
+`MarginRight-` \n
+`MarginTop-` \n
+`MarginBottom-` \n
+`PaddingFull-` \n
+`PaddingLeft-` \n
+`PaddingRight-` \n
+`PaddingTop-` \n
+`PaddingBottom-` \n
+`Zindex-` \n
+`Position-` \n
+`PTop-` \n
+`PLeft-` \n
+`PRight-` \n
+`PBottom-` \n
+`Color-` \n
+`BgC-` \n
+`BgI-` \n
+`BgS-` \n
+`BorderFull-` \n
+`BorderBottom-` \n
+`BorderRight-` \n
+`BorderLeft-` \n
+`BorderTop-` \n
+`BorderStyle-` \n
+`BorderWidth-` \n
+`BorderC-` \n
+`BorderRadius-` \n
+`Width-` \n
+`Height-` \n
+`Display-` \n
+`FontFamily-` \n
+`FontSize-` \n
+`FontStyle-` \n
+`FontWeight-` \n
+`TextAlign-` \n
+`TextDecoration-` \n
+`TextIndent-` \n
+`TextOverflow-` \n
+`TextTransform-` \n
+`Transform-` \n
+`Transition-` \n
+`FlexDirection-` \n
+`FlexWrap-` \n
+`FlexFlow-` \n
+`JustifyContent-` \n
+`AlignItems-` \n
+`AlignContent-` \n
+`AlignSelf-` \n
+`Order-` \n
+`FlexGrow-` \n
+`FlexShrink-`  \n
+`FlexBasis-` \n
