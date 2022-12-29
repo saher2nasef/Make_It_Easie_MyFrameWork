@@ -139,12 +139,11 @@ header .links a {
   color: #fff;
   opacity: 1;
   transition: 0.5s;
-  transform: scale(1);
 }
 #preloader.active {
   opacity: 0;
   z-index: -10;
-  transform: scale(0);
+  left: -100%;
 }
 #preloader .jumper {
   left: 0;
