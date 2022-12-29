@@ -121,3 +121,5 @@ function InnerHtmlStyleTag(arrayAllElements) {
   }
 }
 InnerHtmlStyleTag(arrayAllElements);
+let ready = true;
+export default ready;

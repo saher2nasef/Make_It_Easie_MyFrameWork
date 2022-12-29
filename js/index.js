@@ -1,7 +1,10 @@
 import Data from "./Data.js";
-let body = document.querySelector("body");
+import ready from "./Frame.js";
+let preloader = document.querySelector("#preloader");
 window.onload = () => {
-  body.classList.remove("Load");
+  if (ready) {
+    preloader.classList.add("active");
+  }
 };
 let Css = document.getElementById("Css");
 let Js = document.getElementById("Js");

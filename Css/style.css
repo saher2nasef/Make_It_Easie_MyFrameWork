@@ -141,7 +141,7 @@ body.load #preloader {
   transition: 0.5s;
   transform: scale(1);
 }
-#preloader {
+#preloader.active {
   opacity: 0;
   z-index: -10;
   transform: scale(0);
